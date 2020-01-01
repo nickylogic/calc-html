@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calc-html Test Page</title>
+    </head>
+    <body>
+        <h1>calc-html Test Page</h1>
+        <span id="message"></span>
+        <form>
+            a = <input is="calc-in" id="a" type="number"><br>
+            b = <input is="calc-in" id="b" type="number"><br>
+            a + b = <calc-x data-in="a,b" data-out="${a+b}"></calc-x>
+        </form>
+        <script type="module">
+            import calcHtml from '../index.js';
+            window.calc = calcHtml;
+        </script>
+    </body>
+</html>

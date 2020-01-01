@@ -1,0 +1,23 @@
+{
+  "name": "datacalc",
+  "version": "1.0.0",
+  "description": "Data Calculation for HTML5",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickylogic/datacalc.git"
+  },
+  "author": "Matt Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickylogic/datacalc/issues"
+  },
+  "homepage": "https://github.com/nickylogic/datacalc#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
