@@ -40,11 +40,8 @@ function update(element) {
             map((a)=>`const ${a} = document.getElementById('${a}').value;`).
             join('\n') +
         `\nreturn \`${element.dataset.out}\`;\n` +
-        '})();'
-
-        console.log('script',script); //TODO
+        '})();'; //TODO should be type sensitive -- look into JS language parsing
     element.innerText = eval(script);
-    console.log('innerText',element.innerText); //TODO
 
     propagate(element);
 }
