@@ -1,2 +1,2 @@
-# datacalc
-Data Calculation for HTML5
+# calc-html
+Data DOM Propagation and Calculation for HTML5
